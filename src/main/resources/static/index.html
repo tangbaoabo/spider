@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="row clearfix" style="margin-top: 80px"/>
+    <div class="row clearfix">
+        <nav style="text-align: center ;margin-bottom: 20px">
+
+
+            <div class="col-md-12 column">
+                <img alt="140x140" src="img/logo.jpeg" style=" width: 37%;margin-bottom: 2px; height: 248px;" class="img-rounded"/>
+            </div>
+        </nav>
+    </div>
+
+    <div class="row clearfix">
+        <!--主要的区域-->
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="row clearfix">
+                    <div class="col-md-3 column">
+                    </div>
+                    <div class="col-md-6 column">
+                        <form action="search" method="POST">
+                            <div class="input-group">
+                                <input type="text" class="form-control " placeholder="请输入es查询条件" name="question"/>
+                                <span class="input-group-btn">
+                            <button type="submit" class="btn btn-info btn-search glyphicon glyphicon-search"
+                                    style="margin-top: -1px;"></button>
+                   </span>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-3 column">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
